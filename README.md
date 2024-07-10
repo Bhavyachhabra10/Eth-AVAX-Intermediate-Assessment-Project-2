@@ -1,37 +1,36 @@
-Assessment Smart Contract
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Overview:
-This Solidity smart contract, named Assessment, serves as a basic example of a contract managing funds with deposit and withdrawal functionalities. 
-It allows an owner to deposit and withdraw funds, and provides methods to interact with the contract's state.
+## Getting Started
 
-Contract Details:
-Owner: The contract has an owner, initialized during deployment, who has special privileges such as depositing and withdrawing funds.
-Balance: Tracks the current balance of the contract in wei (the smallest denomination of Ether).
-Events: Emits Deposit and Withdraw events whenever funds are deposited or withdrawn.
+First, run the development server:
 
-Description:
-1. Creata a contract named Assessment.
-2. Declare a ststic variables like owner and balance.
-3. Define a event.
-4. Create constructor.
-5. Create a public view function as getBalance.
-6. Create a public payable function for depositing balances.
-7. Then perform the transaction.
-8. Then custom error.
-9. Create a public function for withdrawing balance
-10. Withdraw given amount.
-11. Assert given balance.
-12. Emit the event.
-13. Then i have created 3 functions:
-14. 1. Return the owner address.
-    2. Return the contract's current balance.
-    3. Return if the caller is the owner.
- 
-Then deployed the contract and show the balance in the frontend and Owner also showing.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Author:
-Bhavya Chhabra
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-License:
-This Assessment smart contract is licensed under the MIT License
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
